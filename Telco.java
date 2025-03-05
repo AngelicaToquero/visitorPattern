@@ -32,6 +32,11 @@ public class Telco implements TelcoSubscription {
     }
 
     @Override
+    public int getDataAllowance() {  
+        return dataAllowance;
+    }
+
+    @Override
     public boolean getUnliCallText() {
         return unliCallText;
     }
